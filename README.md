@@ -5,6 +5,8 @@ Before getting started I want to recommend with you a link that indicates a book
 
 You can install this book [OpenCV Computer Vision Projects with Python](https://www.pdfdrive.com/opencv-computer-vision-projects-with-python-d58213131.html).
 
+If you have any question or problem, you can communicate with me through my e-mail <mmtaksu.25@gmail.com>.
+
 ![OpenCV_Book](opencv computer vision projects with python.jpg)
 
 
