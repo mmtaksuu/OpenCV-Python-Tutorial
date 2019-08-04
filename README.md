@@ -9,7 +9,7 @@ If you have any question or problem, you can communicate with me through my e-ma
 
 ![OpenCV_Book](opencv computer vision projects with python.jpg)
 
-[![OpenCV_Book](opencv computer vision projects with python.jpg "Shiprock, New Mexico by Beau Rogers")](https://image.bokus.com/images/9781787125490_200x_opencv-computer-vision-projects-with-python_haftad)
+[![OpenCV_Book](https://image.bokus.com/images/9781787125490_200x_opencv-computer-vision-projects-with-python_haftad)]
 
 > You can find on this tutorial most of the computer vision examples like image segmantation, morhological operations, object tracking app, and so on.
 
