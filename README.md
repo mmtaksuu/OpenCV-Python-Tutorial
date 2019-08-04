@@ -3,13 +3,11 @@ Hello and Welcome to my opencv python tutorial. This page is designed for the pe
 
 Before getting started I want to recommend with you a link that indicates a book called ***OpenCV Computer Vision Projects with Python***. 
 
+![OpenCV_Book](https://image.bokus.com/images/9781787125490_200x_opencv-computer-vision-projects-with-python_haftad)
+
 You can install this book [OpenCV Computer Vision Projects with Python](https://www.pdfdrive.com/opencv-computer-vision-projects-with-python-d58213131.html).
 
 If you have any question or problem, you can communicate with me through my e-mail <mmtaksu.25@gmail.com>.
-
-![OpenCV_Book](opencv computer vision projects with python.jpg)
-
-[![OpenCV_Book](https://image.bokus.com/images/9781787125490_200x_opencv-computer-vision-projects-with-python_haftad)]
 
 > You can find on this tutorial most of the computer vision examples like image segmantation, morhological operations, object tracking app, and so on.
 
