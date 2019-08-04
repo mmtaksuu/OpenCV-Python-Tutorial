@@ -4,6 +4,6 @@ Hello and Welcome to my opencv python tutorial. This page is designed for the pe
 Before getting started I want to share with you a link that indicates a book called OpenCV Computer Vision Projects with Python. 
 Link for this book : https://www.pdfdrive.com/opencv-computer-vision-projects-with-python-d58213131.html
 
-![opencvtutorial](opencv computer vision projects with python.jpg)
+![mmtaksuu/opencvtutorial](opencv computer vision projects with python.jpg)
 
 
