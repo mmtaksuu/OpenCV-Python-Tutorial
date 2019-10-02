@@ -1,0 +1,81 @@
+                               BRIEF_demo
+                               ----------
+
+This  software demonstrates  BRIEF based  keypoint matching  for planar
+object detection.
+
+Homepage:  http://cvlab.epfl.ch/software/brief
+
+
+COMPILATION:
+
+Type
+
+$ make
+
+to  compile  the  code  and   generate  the  executable 'BRIEF_demo'.
+
+The code depends  on OpenCV-2.1, so you should  first install and make
+sure that pkg-config can locate it.  To test it, type
+
+$ pkg-config  opencv --libs  --cflags
+
+and you should get a list of compiler flags.
+
+Important Notices:
+
+1)  BRIEF_demo relies on  Hamming Distance  calculation.  Some  of new
+generation  processors support SSE4.2  instructions which  includes an
+instruction  called   POPCNT  which  enables   fast  Hamming  Distance
+calculation.   In g++  SSE4.2 instructions  are enabled  with -msse4.2
+flag. By  default, this  flag is set  in the Makefile.   Therefore, if
+your instruction  set does  not support SSE4.2  instructions, although
+BRIEF_demo compiles perfectly, it  will crash giving an error message.
+If  you get such  an error,  please open  Makefile with  your favorite
+editor and remove -msse4.2 flag.
+
+2) For Mac OS X users:
+
+OpenCV-2.1 release has a bug for  Mac OS X which causes serious memory
+leak  when  "cvShowImage"  function  is  called. You  can  follow  the
+relevant TRAC ticket from:
+
+https://code.ros.org/trac/opencv/ticket/253
+
+Fortunately,  the  problem  has  been  resolved  in  the  current  SVN
+version. Therefore, you can download the latest SVN snapshot of OpenCV
+and build it  in your Mac OS  X.  In this way, you  can use BRIEF_demo
+without any problem.
+
+USAGE:
+
+Run:
+
+$ ./BRIEF_demo
+
+Taking a new template image:
+
+Show the template image to your  camera and press 't'. The screen will
+be  frozen.  Using  your mouse  click the  upper-left  and lower-right
+corners of the  object which you want to  detect. The application will
+learn the image you show immediately and will be ready to detect it.
+
+Enable - Disable rotation and scale invariance:
+
+Press  'd'   for  enabling  or   disabling  the  rotation   and  scale
+invariance.  Disabling rotation  and  scale invariance  mean that  the
+detection will be done by only on the original template image, instead
+of  trying the  incoming frame  with several  different  rotations and
+scales of this template.
+
+Quit:
+Press Q.
+
+FOR REPORTING BUGS and FEEDBACK:
+Please send an email to Eray MOLLA: eray.molla@epfl.ch and/or
+Vincent Lepetit vincent.lepetit@epfl.ch
+
+
+
+
+
